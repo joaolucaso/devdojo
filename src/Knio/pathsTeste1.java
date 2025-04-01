@@ -9,6 +9,5 @@ public class pathsTeste1 {
         System.out.println(p1.getFileName());
 
 
-
     }
 }
