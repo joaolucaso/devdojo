@@ -14,3 +14,5 @@ public class Scannertest01 {
 
     }
 }
+//Em Java, você pode usar expressões regulares (regex) com a classe Pattern e a
+// classe Matcher do pacote java.util.regex. Regex é útil para validar, buscar e manipular strings.
