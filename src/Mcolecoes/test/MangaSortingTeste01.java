@@ -14,11 +14,11 @@ class MangaByComparator implements Comparator<Manga> {
 }
 public class MangaSortingTeste01 {
     public static void main(String[] args) {
-        List<Manga> mangas = new ArrayList<>(6);
-        mangas.add(new Manga(2L,"Attack on titan",55.7));
-        mangas.add(new Manga(3L,"berserk",7.7));
-        mangas.add(new Manga(6L,"Helssing Ultimate",49.7));
-        mangas.add(new Manga(4L,"Dragon bal Z",85.7));
+            List<Manga> mangas = new ArrayList<>(6);
+            mangas.add(new Manga(2L,"Attack on titan",55.7));
+            mangas.add(new Manga(3L,"berserk",7.7));
+            mangas.add(new Manga(6L,"Helssing Ultimate",49.7));
+            mangas.add(new Manga(4L,"Dragon bal Z",85.7));
         for (Manga manga : mangas){
             System.out.println(manga);
         }
